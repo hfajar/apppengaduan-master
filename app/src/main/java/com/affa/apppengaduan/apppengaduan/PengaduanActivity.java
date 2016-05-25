@@ -17,8 +17,6 @@ public class PengaduanActivity extends AppCompatActivity {
         ActionBar supportActionBar = getSupportActionBar();
         supportActionBar.hide();
 
-
-
     }
 
     public void go_to_umum(View view){
@@ -36,8 +34,5 @@ public class PengaduanActivity extends AppCompatActivity {
         startActivity(i);
     }
 
-    public void go_to_lain2(View view){
-        Intent i = new Intent(this, LainLain.class);
-        startActivity(i);
-    }
+
 }
